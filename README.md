@@ -23,8 +23,6 @@ Two more that you will use often:
 
 Here is a full <a href="https://docs.angularjs.org/api/ng/directive" target="_blank">list of Angular's built-in directives</a>.
 
-> **NOTE: To adhere to the most up-to-date styleguide, please refer to [this condensed & relevant Angular styleguide](https://github.com/sf-wdi-25/angular_style_guide) for further information.**
-
 
 ### ngModel
 
@@ -224,14 +222,14 @@ You can use the <a href="https://docs.angularjs.org/api/ng/filter/filter" target
 </body>
 ```
 
-To see one solution, check out the [solution](https://github.com/sf-wdi-25/angular_directives_lab/tree/solution) branch.
+To see one solution, check out the [solution](https://github.com/SF-WDI-LABS/angular_directives_lab/tree/solution) branch.
 
 
-Lets jump over to the [Custom Directives Lab](https://github.com/sf-wdi-25/angular_custom_directives_lab) and continue our angular quest!
+Lets jump over to the [Custom Directives Lab](https://github.com/SF-WDI-LABS/angular_custom_directives_lab) and continue our angular quest!
 
 ## Challenges
 
-Work on the <a href="https://github.com/sf-wdi-25/angular-movie-lab" target="_blank">Angular Movie Lab</a> (which is also tonight's homework).
+Work on the <a href="https://github.com/SF-WDI-LABS/angular-movie-lab" target="_blank">Angular Movie Lab</a>.
 
 ## Resources
 
