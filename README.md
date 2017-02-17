@@ -224,9 +224,6 @@ You can use the <a href="https://docs.angularjs.org/api/ng/filter/filter" target
 
 To see one solution, check out the [solution](https://github.com/SF-WDI-LABS/angular_directives_lab/tree/solution) branch.
 
-
-Lets jump over to the [Custom Directives Lab](https://github.com/SF-WDI-LABS/angular_custom_directives_lab) and continue our angular quest!
-
 ## Challenges
 
 Work on the <a href="https://github.com/SF-WDI-LABS/angular-movie-lab" target="_blank">Angular Movie Lab</a>.
