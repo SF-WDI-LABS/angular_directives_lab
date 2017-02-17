@@ -11,7 +11,7 @@
 
 In Angular, we **add behavior to HTML** by using directives. A directive is a marker on an HTML tag that tells Angular to run or reference JavaScript code.
 
-Angular directives start with the prefix `ng-`. You've already seen a couple built-in directives:
+Angular directives start with the prefix `ng-`. You've already seen a couple of built-in directives:
 
 * `ng-app`: turns ordinary HTML into an Angular application.
 * `ng-controller`: attaches a controller to the view (or a specific section of the view).
@@ -32,7 +32,7 @@ Assume you have the following Angular app set up for a trainer to manage their P
 <!-- index.html -->
 
 <!DOCTYPE html>
-<html data-ng-app="pokemonApp">
+<html ng-app="pokemonApp">
   <head>
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -43,7 +43,7 @@ Assume you have the following Angular app set up for a trainer to manage their P
 	<script type="text/javascript" src="app.js"></script>
 
   </head>
-  <body data-ng-controller="PokemonController as pokemon">
+  <body ng-controller="PokemonController as pokemon">
 
 	  ...
 
@@ -101,12 +101,12 @@ You want the user to be able to input their name in a form field so that the app
 ```html
 <!-- index.html -->
 
-<body data-ng-controller="PokemonController as pokemon">
+<body ng-controller="PokemonController as pokemon">
 
   <h2>Trainer: {{pokemon.trainer.name}}</h2>
 
   <span>Enter your name:</span>
-  <input type="text" data-ng-model="pokemon.trainer.name">
+  <input type="text" ng-model="pokemon.trainer.name">
 
 </body>
 ```
@@ -131,7 +131,7 @@ You can set a default value in the Angular templating parameters:
 ```html
 <!-- index.html -->
 
-<body data-ng-controller="PokemonController as pokemon">
+<body ng-controller="PokemonController as pokemon">
 
   <h2>Trainer: {{pokemon.trainer.name || "Ash"}}</h2>
 
@@ -178,9 +178,9 @@ You can use `ngRepeat` to iterate through the collection of Pokémon and display
 ```html
 <!-- index.html -->
 
-<body data-ng-controller="PokemonCtrl as pokemon">
+<body ng-controller="PokemonCtrl as pokemon">
 
-  <div data-ng-repeat="poke in pokemon.pokemonList">
+  <div ng-repeat="poke in pokemon.pokemonList">
     <p>{{poke.name}}</p>
   </div>
 
@@ -196,9 +196,9 @@ You can use the <a href="https://docs.angularjs.org/api/ng/filter/orderBy" targe
 ```html
 <!-- index.html -->
 
-<body data-ng-controller="PokemonCtrl as pokemon">
+<body ng-controller="PokemonCtrl as pokemon">
 
-  <div data-ng-repeat="poke in pokemon.pokemonList | orderBy:'nDex'">
+  <div ng-repeat="poke in pokemon.pokemonList | orderBy:'nDex'">
     <p>{{poke.name}}</p>
   </div>
 
@@ -210,12 +210,12 @@ You can use the <a href="https://docs.angularjs.org/api/ng/filter/filter" target
 ```html
 <!-- index.html -->
 
-<body data-ng-controller="PokemonCtrl as pokemon">
+<body ng-controller="PokemonCtrl as pokemon">
 
   <span>Search Pok&#233;mon:</span>
-  <input type="text" data-ng-model="searchPokemon">
+  <input type="text" ng-model="searchPokemon">
 
-  <div data-ng-repeat="poke in pokemon.pokemonList | orderBy:'nDex' | filter:searchPokemon">
+  <div ng-repeat="poke in pokemon.pokemonList | orderBy:'nDex' | filter:searchPokemon">
     <p>{{poke.name}}</p>
   </div>
 
