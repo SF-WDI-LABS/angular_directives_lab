@@ -198,7 +198,7 @@ You can use the <a href="https://docs.angularjs.org/api/ng/filter/orderBy" targe
 
 <body ng-controller="PokemonCtrl as pokemon">
 
-  <div ng-repeat="poke in pokemon.pokemonList | orderBy:'nDex'">
+  <div ng-repeat="poke in pokemon.pokemonList | orderBy:'id'">
     <p>{{poke.name}}</p>
   </div>
 
@@ -215,7 +215,7 @@ You can use the <a href="https://docs.angularjs.org/api/ng/filter/filter" target
   <span>Search Pok&#233;mon:</span>
   <input type="text" ng-model="searchPokemon">
 
-  <div ng-repeat="poke in pokemon.pokemonList | orderBy:'nDex' | filter:searchPokemon">
+  <div ng-repeat="poke in pokemon.pokemonList | orderBy:'id' | filter:searchPokemon">
     <p>{{poke.name}}</p>
   </div>
 
