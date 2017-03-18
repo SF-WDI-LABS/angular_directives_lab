@@ -226,7 +226,7 @@ To see one solution, check out the [solution](https://github.com/SF-WDI-LABS/ang
 
 ## Challenges
 
-Work on the <a href="https://github.com/SF-WDI-LABS/angular-movie-lab" target="_blank">Angular Movie Lab</a>.
+Work on the [Angular Movie Lab](https://github.com/SF-WDI-LABS/angular-movie-lab).
 
 ## Resources
 
