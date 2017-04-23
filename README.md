@@ -1,9 +1,27 @@
-# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Angular Directives
+# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Angular Directives and Expressions
 
-| Objectives |
-| :--- |
-| Review Angular app setup |
-| Extend your app's functionality with Angular's built-in directives |
+### Why is this important?
+<!-- framing the "why" in big-picture/real world examples -->
+*This workshop is important because:*
+
+One of Angular's central structures is the directive - additional markup we can add to our HTML.  Angular uses these directives when it pre-processes our HTML files with its **HTML compiler**, and it attaches behavior to a DOM element.
+
+### What are the objectives?
+<!-- specific/measurable goal for students to achieve -->
+*After this workshop, developers will be able to:*
+
+- Extend an app's functionality with Angular's built-in directives
+
+### Where should we be now?
+<!-- call out the skills that are prerequisites -->
+*Before this workshop, developers should already be able to:*
+
+- Explain the benefits of using Angular and describe the problems Angular aims to solve.
+- Initialize Angular in an HTML view, and use expressions and templates to impact the DOM.
+- Organize an Angular app with front-end controllers and connect the View & Controller using `this`.
+- Implement 2-way data binding.
+
+
 
 ## What are directives?
 
